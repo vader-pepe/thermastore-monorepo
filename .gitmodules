@@ -1,0 +1,6 @@
+[submodule "streamer"]
+	path = streamer
+	url = git@github.com:vader-pepe/thermastore-streamer.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:vader-pepe/Thermastore.git

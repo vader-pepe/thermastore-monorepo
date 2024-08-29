@@ -1,0 +1,33 @@
+{
+  "name": "puppet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "upload": "ts-node src/jobs/upload.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.5.0",
+    "@types/puppeteer": "^7.0.4",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bree": "^9.2.4",
+    "dotenv": "^16.4.5",
+    "multer": "1.4.5-lts.1",
+    "puppeteer": "^23.1.1"
+  }
+}
